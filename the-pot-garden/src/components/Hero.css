@@ -1,0 +1,6 @@
+.hero-full{display:flex;align-items:center;min-height:72vh;padding:20px 0}
+.hero-bg{border-radius:12px}
+.hero-content{color:var(--text);padding-left:12px}
+.eyebrow{margin-bottom:8px}
+.hero-title{font-weight:600}
+.hero-sub{margin-top:6px}

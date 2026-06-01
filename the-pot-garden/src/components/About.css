@@ -1,0 +1,20 @@
+.split .text{padding:18px}
+.split .image{display:flex;align-items:center;justify-content:center;position:relative}
+.about-grid{display:grid;grid-template-columns:1.2fr 0.8fr;gap:16px}
+.about-stack{display:grid;gap:16px}
+.about-image{min-height:180px;border-radius:18px;background-size:cover;background-position:center;border:1px solid rgba(200,169,126,0.18);box-shadow:0 18px 40px rgba(0,0,0,0.28)}
+.about-image.tall{min-height:380px}
+.image-placeholder{position:relative;width:100%}
+.botanical-accent{
+  position:absolute;pointer-events:none;opacity:.3;
+  border:2px solid rgba(200,169,126,0.4);
+}
+.accent-1{
+  width:80px;height:80px;border-radius:50%;top:-20px;right:-20px;border-right:none;border-bottom:none;
+}
+.accent-2{
+  width:60px;height:60px;border-radius:0;bottom:-10px;left:-10px;border:2px solid rgba(200,169,126,0.2);
+}
+.muted{color:rgba(245,230,211,0.9)}
+@media(max-width:900px){.about-grid{grid-template-columns:1fr}}
+

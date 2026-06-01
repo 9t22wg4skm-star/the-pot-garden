@@ -1,0 +1,12 @@
+.nav .brand{font-size:20px}
+.nav-item{font-size:14px;color:rgba(245,230,211,0.9);display:flex;align-items:center}
+.mobile-toggle{display:none;background:none;border:none;color:var(--accent);font-size:22px;cursor:pointer}
+
+@media(max-width:640px){
+  .mobile-toggle{display:block}
+  .nav-right{
+    position:absolute;top:56px;right:0;left:0;background:rgba(27,48,37,0.98);flex-direction:column;gap:8px;padding:16px;display:none
+  }
+  .nav-right.mobile-open{display:flex}
+  .nav-right .btn{width:100%;text-align:center}
+}
